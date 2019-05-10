@@ -5,7 +5,7 @@
     "require": {
         "php": "^7.0"
     },
-    "license": "BSD-3-Vc\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DC\u001b[C\u001b[Cuse",
+    "license": "BSD-3-Clouse",
     "authors": [
         {
             "name": "Andriy Slobodian",
@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "PSR-4": {
+        "psr-4": {
             "excito\\parser\\": "src"
         }
     },
