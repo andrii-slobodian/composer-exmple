@@ -15,13 +15,13 @@ class Parser implements ParserInterface {
         
         
         if($htmlPage === false){
-            return "Invalid URL";
+            return ["Invalid URL"];
         }
         
-        preg_match_all("/<".$tag.".*?>(*.?)<\/".$tag.">/s", $htmlPage, $strings);
+        preg_match_all("/<".$tag.".*?>(.*?)<\/".$tag.">/s", $htmlPage, $strings);
         
         if (empty($strings[1])){
-            return "NO tag";
+            return ["NO tag"];
         }
         
         return $strings[1];
