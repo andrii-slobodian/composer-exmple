@@ -1,0 +1,21 @@
+{
+    "name": "excito/composer-example-parser",
+    "description": "example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Vc\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DC\u001b[C\u001b[Cuse",
+    "authors": [
+        {
+            "name": "Andriy Slobodian",
+            "email": "andrik7777785@gmail.com"
+        }
+    ],
+    "autoload": {
+        "PSR-4": {
+            "excito\\parser\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
